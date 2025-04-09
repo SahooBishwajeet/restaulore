@@ -84,6 +84,8 @@ def generate_base_map(default_location=[12.9716, 77.5946], default_zoom_start=12
         "Roads": get_project_root() / "data/layers/road.geojson",
         "Educational Institutes": get_project_root()
         / "data/layers/educational-institute.geojson",
+        "Tourist": get_project_root()
+        / "data/layers/tourist.geojson",
     }
 
     # Add additional layers to the map
